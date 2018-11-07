@@ -1,0 +1,132 @@
+.wrapmeup{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Audiowide', cursive;
+    color: #1b8e9a;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    text-shadow: -2px 2px 0px #c101ff;
+}
+.here {
+  position: relative;
+  top: 250px;
+  left: 400px;
+}
+}
+html {
+    font-size: 10px;
+    
+  }
+   
+    
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('Retro.jpg');
+    background-size: cover;
+   
+      }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header{
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+
+  
+.street-machine {
+    position: relative;
+  }
+
+  .street {
+    position: relative;
+    font-family: 'Candal', sans-serif;
+    font-size: 180px;
+    font-style: italic;
+    -webkit-text-stroke: 1px #ffe6e6;
+    color: #b902c3;
+    text-shadow: -10px 10px 0px #00cdd4fc;
+    margin: 0;
+  }
+  
+  .windows .street {
+    -webkit-text-stroke: 4px #ed2121;
+  }
+  
+  .street:before {
+    content: '';
+    position: relative;
+    height: 4px;
+    width: 665px;
+    top: 83px;
+    left: 48px;
+    background: #ed2121;
+    box-shadow: -8px 13px #ed2121;
+  }
+  
+  .windows .street:before {
+    left: 55px;
+    width: 659px;
+  }
+  
+  .street:after {
+    content: '';
+    position: relative;
+    height: 4px;
+    width: 639px;
+    top: 109px;
+    left: 36px;
+    background: #ed2121;
+    box-shadow: -4px 13px #ed2121;
+  }
+  
+    
+  .windows .machine {
+    margin-top: -200px;
+  }
