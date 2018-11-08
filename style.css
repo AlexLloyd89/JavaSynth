@@ -64,7 +64,7 @@ html {
   .playing {
     transform: scale(1.1);
     border-color: #8b008b;
-    box-shadow: 0 0 1rem #ffc600;
+    box-shadow: 0 0 1rem #8b008b;
   }
   
   kbd {
